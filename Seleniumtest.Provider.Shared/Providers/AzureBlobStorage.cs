@@ -18,7 +18,7 @@ namespace Seleniumtest.Provider.Shared.Providers
             string connectionString = ConfigurationManager.AppSettings["AzureBlob:StorageConnectionString"];
             if (string.IsNullOrEmpty(connectionString))
             {
-                throw new Exception("There is in the appsettings no key found with name: AzureBlob:StorageConnectionString");
+                throw new NullReferenceException("There is in the appsettings no key found with name: AzureBlob:StorageConnectionString");
             }
 
             CloudStorageAccount = CloudStorageAccount.Parse(connectionString);

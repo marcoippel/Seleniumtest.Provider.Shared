@@ -1,0 +1,1 @@
+..\.nuget\NuGet.exe pack ..\Seleniumtest.Provider.Shared\Seleniumtest.Provider.Shared.csproj -Prop Configuration=Release -IncludeReferencedProjects 

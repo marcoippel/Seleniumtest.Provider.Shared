@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Selenium screen capture provider shared code</title>
+    <description>$description$</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>Selenium, azure blobstorage, slack</tags>
+    <projectUrl>https://github.com/marcoippel/Seleniumtest.Provider.Shared</projectUrl>
+    <dependencies>
+      <dependency id="WindowsAzure.Storage" version="6.0.0.0" />
+    </dependencies>
+  </metadata>
+  
+</package>
